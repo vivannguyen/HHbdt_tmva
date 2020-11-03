@@ -26,7 +26,7 @@ def main(argv):
 	###--------------------------------------------------------------
 
 	# input directory for trees
-	inputDirect = '/eos/cms/store/group/phys_higgs/HiggsExo/HH_bbZZ_bbllqq/dmorse/hhTrees/NTupleAnalyzerHH_hh_newEleBDTs_QuickTest_2018_07_07/SummaryFiles/'
+	inputDirect = '/eos/cms/store/group/phys_higgs/HiggsExo/HH_bbZZ_bbllqq/analysisTrees/NTupleAnalyzerHH_nanoAOD_Full2017QuickTest_2020_05_01/SummaryFiles/'
 
 	# combine low mass signals? 'YES' or 'NO'
 	#doLowMComb = 'YES'
@@ -37,9 +37,9 @@ def main(argv):
 	csname = 'HH_TMVAClassification.C'
 
 	# working directory name
-	workdir = '/afs/cern.ch/work/a/ahortian/HH_bdt_tmva_test/'
+	workdir = '/afs/cern.ch/work/v/vinguyen/HHbdt_tmva/'
 	# output dir on the /store/user/ area
-	out_eosdir = '/eos/cms/store/user/ahortian/HH_MVA_Batch/'
+	out_eosdir = '/eos/cms/store/user/vinguyen/'
 
 	#SignalM = ['260'] # use this for doLowMComb
 	SignalM = ["260","270","300","350","400", "450", "500", "550", "600","650", "750", "800", "900", "1000"]
@@ -50,8 +50,8 @@ def main(argv):
 	myMethodList = ['BDTG01']
 
 	###--------------------------------------------------------------
-	repos_dir = 'HH_bdt_tmva'
-	workdir = workdir + repos_dir + '/'
+	#repos_dir = 'HH_bdt_tmva'
+	#workdir = workdir + repos_dir + '/'
 
 	sig_usage = {
 		'260': { 'dn':'260', 'cn':'270', 'up':'300' },
