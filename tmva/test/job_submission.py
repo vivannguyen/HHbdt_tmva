@@ -26,7 +26,7 @@ def main(argv):
 	###--------------------------------------------------------------
 
 	# input directory for trees
-	inputDirect = '/eos/cms/store/group/phys_higgs/HiggsExo/HH_bbZZ_bbllqq/analysisTrees/NTupleAnalyzerHH_nanoAOD_Full2017QuickTest_2020_05_01/SummaryFiles/'
+	inputDirect = '/eos/cms/store/group/phys_higgs/HiggsExo/HH_bbZZ_bbllqq/analysisTrees/NTupleAnalyzerHH_nanoAOD_Full2016QuickTest_2019_10_09/SummaryFiles/'
 
 	# combine low mass signals? 'YES' or 'NO'
 	#doLowMComb = 'YES'
